@@ -107,7 +107,7 @@ const bool Family::in_interval(
 const size_t Family::evaluation_index(vectordb const& parameter) const {
 	// Check belonging
 	if (!in_interval(parameter)) {
-		cout << "Error : The parameter does not belong the interval of validity of the family" << endl;
+		cout << "Error : The parameter does not belong to the interval of validity of the family" << endl;
 		return parameter.size();
 	}
 
@@ -154,7 +154,7 @@ const size_t Family::evaluation_index(vectordb const& parameter) const {
 	}
 
 	// If a interval could not be found
-	cout << "Error : The parameter does not belong the interval of validity of the family"
+	cout << "Error : The parameter does not belong to the interval of validity of the family"
 		<< endl << "Verify the construction of the family" << endl;
 	return parameter.size();
 }

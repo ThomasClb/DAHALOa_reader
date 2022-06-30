@@ -48,7 +48,7 @@ int example_2(int argc, char** argv) {
 		cout << "Wrong number of arguments." << endl;
 		cout << "Requested number : 3." << endl;
 		cout << "0 - Example to execute (here 2)." << endl;
-		cout << "1 - Name of the family to read in the './data/family/' directory (ex 'DRO/x_phi_8_5')." << endl;
+		cout << "1 - Name of the family to read in the './data/family/' directory (ex 'EARTH_MOON/LYAPUNOV_L2/x_phi_8_5')." << endl;
 		cout << "2 - Size of the grid to evaluate, recommanded 50." << endl;
 		return 0;
 	}
@@ -91,7 +91,7 @@ int example_2(int argc, char** argv) {
 	// Benchmark data
 	double mean(0.0), max(1e-30);
 	for (size_t i = 0; i < list_contraint.size(); i++) {
-		double norm = list_contraint[i].vnorm(); // Compute norm of constraint violation vector
+		double norm = list_contraint[i].vnorm(); // Compute norm of the constraint violation vector
 		if (norm > max)
 			max = norm; // Compute max of constraint violations
 		mean += norm; // Compute mean of constraint violations
@@ -100,8 +100,8 @@ int example_2(int argc, char** argv) {
 
 	// Output
 	cout << "Contraint violation : " << endl;
-	cout << "- Max constraint violation [-] : " << max << endl;
-	cout << "- Mean constraint violation [-] : " << mean << endl;
+	cout << "- Max constraint violation norm [-] : " << max << endl;
+	cout << "- Mean constraint violation norm [-] : " << mean << endl;
 
 	return 0;
 }

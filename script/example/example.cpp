@@ -12,7 +12,7 @@ int example(int argc, char** argv) {
 	if (argc < 2) {
 		cout << "Wrong number of arguments." << endl;
 		cout << "Requested number : 1 (+0)." << endl;
-		cout << "0 - Example to execute." << endl;
+		cout << "0 - Example to execute (1 or 2)." << endl;
 		return 0;
 	}
 	
@@ -30,5 +30,9 @@ int example(int argc, char** argv) {
 	}
 
 	return 0;
+}
+
+int main(int argc, char** argv) {
+	return example(argc, argv);
 }
 
