@@ -6,8 +6,8 @@ To use the DAHALOa_reader code, you need a C++11 compiler.
 
 The code was mainly tested on Unix distributions but could be adapted with very low effort.
 
-The only dependency on this code is with the DACE, which can be found at [https://github.com/ThomasClb/dace].
-This DACE version was originally forked from the original DACE repository: [https://github.com/dacelib/dace].
+The only dependency on this code is with the DACE, which can be found at: https://github.com/ThomasClb/dace.
+This DACE version was originally forked from the original DACE repository: https://github.com/dacelib/dace.
 It uses AlgebraicMatrix<T> class without making modifications to the CMakeLists.txt file and solves an I/O bug of the DACE, required to read DA files.
 
 ## Setting up DAHALOa_reader
@@ -32,7 +32,7 @@ sudo make install
 ## Running the examples
 Two examples are given to understand how DAHALOa_reader works and how to use it, as well as a test file mapping the Lyapunov orbits at L2 in the Earth-Moon system.
 
-You can download more solution files to read with DAHALOa_reader on [https://doi.org/10.5281/zenodo.6778147].
+You can download more solution files to read with DAHALOa_reader on https://doi.org/10.5281/zenodo.6778147.
 
 In the DAHALOa_reader folder run:
 ```
