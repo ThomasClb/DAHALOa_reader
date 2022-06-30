@@ -44,7 +44,6 @@ packages
 *.pyc
 
 # Data files
-*.dat
 *.png
 *.pdf
 
