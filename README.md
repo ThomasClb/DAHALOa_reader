@@ -32,7 +32,7 @@ sudo make install
 ## Running the examples
 Two examples are given to understand how DAHALOa_reader works and how to use it, as well as a test file mapping the Lyapunov orbits at L2 in the Earth-Moon system.
 
-You can download more solution files to read with DAHALOa_reader on https://doi.org/10.5281/zenodo.6778147.
+You can download more solution files to read with DAHALOa_reader on https://doi.org/10.5281/zenodo.6778146.
 
 In the DAHALOa_reader folder run:
 ```
