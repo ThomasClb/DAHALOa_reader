@@ -33,7 +33,7 @@
 #define LU SMA // Lenght unit [km]
 #define WU (sqrt((MU_1 + MU_2)/pow(SMA, 3))) // Pulsation unit [rad.s^-1]
 #define TU (1/WU) // Time unit [s]
-#define VU sqrt(LU/TU) // Velecity unit [km.s^-1]
+#define VU (LU/TU) // Velecity unit [km.s^-1]
 
 // Save/Load paths
 #define SAVE_PATH_FAMILY "./data/family/" // Directory where to save Families
